@@ -1,0 +1,24 @@
+transformers==4.41.1
+torch>=2.1.0
+tensorflow>=2.12.0
+scikit-learn==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+seaborn==0.13.2
+tqdm==4.66.4
+datasets==2.19.1
+tokenizers==0.19.1
+
+
+Notes:
+Includes both torch and tensorflow — choose one based on which framework you used.
+
+transformers and datasets from Hugging Face are essential for working with BERT and Distil-BERT.
+
+tqdm, matplotlib, and seaborn help in visualization and progress tracking.
+
+You can also create this file using:
+
+pip freeze > requirements.txt
+if you've already installed and tested your packages.
